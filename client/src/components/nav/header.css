@@ -1,0 +1,64 @@
+
+@media screen and (min-width: 800px) { 
+#root .ant-menu-submenu-title {
+    text: white;
+}
+
+.sub1 {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: lightblue;
+}
+
+.nav-link:hover {
+    background-color: rgb(234, 210, 236);
+}
+
+.nav {
+    text-shadow: 0.25px 0.25px;
+}
+
+img { 
+    height: 50px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+}
+
+#header-1 {
+    background-color: rgb(22, 185, 165);
+}
+
+} 
+@media screen and (max-width: 800px) { 
+    .menu {
+        background-color: lightblue;
+    }
+    
+    .nav-link:hover {
+        background-color: rgb(234, 210, 236);
+    }
+    
+    .nav {
+        text-shadow: 0.25px 0.25px;
+    }
+    
+
+    .drop-down-admin {
+        color: black
+    }
+
+    img { 
+        height: 50px;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+    
+    #header-1 {
+        background-color: rgb(22, 185, 165);
+    }
+    
+    } 

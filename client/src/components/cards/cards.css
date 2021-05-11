@@ -1,0 +1,22 @@
+.slider img, 
+.card-image {
+    height: 450px;
+    object-fit: cover;
+}
+
+.single-card-title {
+    background-color: rgb(0, 128, 134);
+    color: white;
+}
+
+.product-card:hover {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    /* border: solid 5px transparent; */
+    /* opacity: 100; */
+    /* background: linear-gradient(to right, #fffdff,  #fff3ff, #ffdbff, #fcd1fc); */
+    box-shadow: 1px 1px 233px 0px  #ffa4ff, 0px 0px 1px 1px  #ffbfff;
+    /* transition-delay: 1s; */
+    transition: 0.35s ease;
+    transform: scale(1.01, 1.0);
+}
